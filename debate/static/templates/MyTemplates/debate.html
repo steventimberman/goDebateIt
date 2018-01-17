@@ -1,0 +1,9 @@
+{% extends 'MyTemplates/main.html' %}
+{% load render_bundle from webpack_loader %}
+{% block title %}<title>Debate</title>{% endblock %}
+{% block body %}
+<div id="DebateItMain"></div>
+{% render_bundle 'vendors' %}
+{% render_bundle 'DebateItMain' %}
+
+{% endblock %}

@@ -1,0 +1,117 @@
+body{
+    background-color: white;
+    /*background-image: url("../images/sound2.png");  #39D1B4 */
+}
+
+.deb-im {
+    size: 20px;
+}
+
+#alertNoTopics{
+    font-size: large;
+}
+
+.input-group-btn{
+    color:red;
+}
+
+#navi {
+    color: green;
+}
+.color-me {
+    color: orange;
+}
+
+#index-post{
+    background-color: darkgray;
+    color: darkmagenta;
+    border: inset;
+    border-color: darkmagenta;
+    border-width: 2px;
+    text-align: center;
+}
+
+#profile-head{
+    background-color: darkgray;
+    color: darkmagenta;
+    text-align: center;
+    border: inset;
+    border-color: darkmagenta;
+    border-width: 2px;
+}
+
+#profile-panel-heading{
+    background: darkgray;
+}
+.panel{
+    border: inset;
+    border-color: darkmagenta;
+    border-width: 2px;
+}
+
+#comment-img{
+   width : 60px;
+}
+
+
+
+.media-object{
+    height: 75px;
+}
+
+#prof_det{
+    font-size: large;
+    text-align: center;
+}
+
+.navbar{
+    border-radius: 0;
+
+}
+
+.navbar-brand{
+    font-family: 'Syncopate', cursive;
+    color : white;
+}
+
+#navbarAll{
+    background-color: #650d88;
+}
+
+#login-logo{
+    width : 200px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+#profile-img {
+    padding: 0px;
+    width: 155px;
+    height: 250px;
+}
+.panel {
+	position:relative;
+}
+.panel>.panel-heading:after,.panel>.panel-heading:before{
+	position:absolute;
+	top:11px;left:-16px;
+	right:100%;
+	width:0;
+	height:0;
+	display:block;
+	content:" ";
+	border-color:transparent;
+	border-style:solid solid outset;
+	pointer-events:none;
+}
+.panel>.panel-heading:after{
+	border-width:7px;
+	border-right-color:#f7f7f7;
+	margin-top:1px;
+	margin-left:2px;
+}
+.panel>.panel-heading:before{
+	border-right-color:#ddd;
+	border-width:8px;
+}
